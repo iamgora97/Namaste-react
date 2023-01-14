@@ -2,12 +2,10 @@ import ReactDOM from "react-dom/client";
 import logo from "./images/flipkart_image.png";
 import searchIcon from "./images/search.png";
 
-//  Logo Component
 const Logo = () => {
   return <img className="imgTag" src={logo} alt="Logo" />;
 };
 
-//Search Bar Componet
 const SearchBar = () => {
   return (
     <input
@@ -24,7 +22,6 @@ const searchButton = (
   </button>
 );
 
-// This is Menu List
 const MenuComponent = () => {
   let arr = ["My Profile", "Become a Seller", "More", "Cart"];
 
@@ -34,7 +31,6 @@ const MenuComponent = () => {
   return <ul className="UI_List">{menuElements}</ul>;
 };
 
-//This is a Main Heaeding component Where our entire Navbar will be present
 const HeadingComponent = () => {
   return (
     <div className="container">
@@ -46,6 +42,5 @@ const HeadingComponent = () => {
   );
 };
 
-// Creation of Root and extract it
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<HeadingComponent />);
