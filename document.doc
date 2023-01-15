@@ -1,0 +1,6 @@
+npm init
+npm instal -D parcel
+npm install react 
+npm install react-dom
+npm install babel-plugin-transform-remove-console --save-dev
+npm start
