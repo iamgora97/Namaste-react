@@ -1,0 +1,33 @@
+{
+  "name": "foodkart",
+  "version": "1.0.0",
+  "description": "Foodkart",
+  "main": "app.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamgora97/foodkart.git"
+  },
+  "author": "Gourob Nandi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamgora97/foodkart/issues"
+  },
+  "homepage": "https://github.com/iamgora97/foodkart#readme",
+  "devDependencies": {
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "parcel": "^2.8.2",
+    "process": "^0.11.10"
+  },
+  "browserslist": [
+    "last 10 versions"
+  ],
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
